@@ -1,3 +1,5 @@
+
+
 #Pseudo code
 =======
 
@@ -37,3 +39,42 @@ PRINT reverseWord
 
 
 Fibonnaci Sequence:
+======
+v1:
+get an input n
+go through fibonnaci sequence n times
+
+v2:
+GET n
+For up to n times
+  Get next number in sequnce
+
+v3:
+GET n
+FOR n
+  ADD previousNumber to currentNumber
+
+v4:
+GET n
+INIT prevNumber
+SET prevNumber as 0
+INIT currentNumber
+SET currentNumber as 1
+FOR n
+  ADD prevNumner to currentNumber
+ENDFOR
+PRINT currentNumber
+
+v5:
+GET n
+INIT prevNumber
+SET prevNumber as 0
+INIT currentNumber
+SET currentNumber as 1
+INIT temp
+FOR n
+  SET temp as currentNumber
+  ADD prevNumner to currentNumber
+  SET prevNumber as temp
+ENDFOR
+PRINT currentNumber
