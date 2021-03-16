@@ -44,6 +44,7 @@ Fibonnaci Sequence:
 v1:
 get an input n
 go through fibonnaci sequence n times
+show number
 
 v2:
 GET n
