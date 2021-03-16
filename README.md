@@ -25,9 +25,10 @@ PRINT reverseWord
 V4:
 GET word
 INIT reverseWord
+INIT lastLetter
 FOR letter in str
-  GET last letter
-  INCREMENT reverseWord by last letter
+  GET lastLetter
+  INCREMENT reverseWord by lastLetter
   DECREMENT str
 ENDFOR
 PRINT reverseWord
