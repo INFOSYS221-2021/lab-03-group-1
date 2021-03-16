@@ -72,7 +72,7 @@ SET prevNumber as 0
 INIT currentNumber
 SET currentNumber as 1
 INIT temp
-FOR n
+FOR n - 1 
   SET temp as currentNumber
   ADD prevNumner to currentNumber
   SET prevNumber as temp
